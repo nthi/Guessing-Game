@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zb6hnp1QOC2jrQqBnzcjbF4Ss1TVDhpJBmeYZHjZEOZDxzrZpzgBwoJtBfGb5MYIaZ03CkbfedvTpb1ZFtIZjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\natal\\workspace\\csharp\\GuessingGame\\GuessingGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\natal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
