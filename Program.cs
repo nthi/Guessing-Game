@@ -7,10 +7,35 @@ namespace GuessingGame
         static void Main(string[] args)
         {
             int secretNumber = new Random().Next(1, 100);
-            int count = 4;
-            for (int i = 0; i < 4; i++) 
+            int guessCount;
+            int iCounter;
+
+            Console.WriteLine("Guess the Number!");
+            Console.WriteLine("Would you like an Easy, Medium, or Hard game?");
+            string difficulty = Console.ReadLine();
+
+            if (difficulty == "Easy")
             {
-                Console.WriteLine($"Try to guess the secret number ({count} guesses remaining):");
+                iCounter = 8;
+                guessCount = 8;
+            }
+
+            else if (difficulty == "Medium")
+            {
+                iCounter = 6;
+                guessCount = 6;
+            }
+
+            else 
+            {
+                iCounter = 4;
+                guessCount = 4;
+            }
+            
+            
+            for (int i = 0; i < iCounter; i++) 
+            {
+                Console.WriteLine($"Try to guess the secret number ({guessCount} guesses remaining):");
                 string input = Console.ReadLine();
                 int inputNumber;
 
@@ -33,7 +58,7 @@ namespace GuessingGame
                             {
                             Console.WriteLine($"You guessed incorrectly: number too high!");
                             }   
-                            count--;
+                            guessCount--;
                         } 
                     }
 
