@@ -26,10 +26,17 @@ namespace GuessingGame
                 guessCount = 6;
             }
 
-            else 
+            else if (difficulty == "Hard")
             {
                 iCounter = 4;
                 guessCount = 4;
+            }
+
+            else
+            {
+                Console.WriteLine("NICE: if you ain't cheating you ain't trying");
+                iCounter = 1000;
+                guessCount = 1000;
             }
             
             
