@@ -6,6 +6,7 @@ namespace GuessingGame
     {
         static void Main(string[] args)
         {
+            //ToDo future turn into method instead
             int secretNumber = new Random().Next(1, 100);
             int guessCount;
             int iCounter;
