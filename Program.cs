@@ -4,6 +4,7 @@ namespace GuessingGame
 {
     class Program
     {
+        //if I turned that initial logic into a method it would be static and in program level
         static void Main(string[] args)
         {
             //ToDo future turn into method instead
